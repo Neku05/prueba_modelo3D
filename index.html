@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Prueba programación dia 11 noviembre</title>
+<!-- CSS de Bootstrap (CDN oficial) -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+rel="stylesheet"
+/>
+</head>
+<body>
+	<!-- Cargar el componente web -->
+	<script type="module"
+	src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+
+	<model-viewer src="/teal.glb"
+	alt="Modelo 3D"
+	camera-controls
+	auto-rotate
+	style="width:100%; height:400px; background:#f3f3f3;">
+	</model-viewer>
+</body>
+
+<!-- JS de Bootstrap (bundle: incluye Popper) → al final del body -->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+</html>
